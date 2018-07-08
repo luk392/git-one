@@ -1,7 +1,6 @@
 body
 {
-    background-image: -moz-linear-gradient(to right, red, orange);
-    background-image: linear-gradient(to right, red, orange);
+    background-image: linear-gradient(to right, #080, #040);
 /*    background: red;*/
     font-family: monospace;
     width: 100%;
@@ -14,4 +13,9 @@ p
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: monospace;
+}
+.element{
+    background:#0a0;
+    border: 1px solid #000;
+    width: 50%;
 }
